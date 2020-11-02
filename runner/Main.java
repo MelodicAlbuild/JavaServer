@@ -3,7 +3,8 @@ import java.io.*;
 import java.net.URL;
 
 public class Main {
-    public static void main(String[] args) throws NoSuchFieldException {
+    public static void main(String[] args){
+        System.setProperty( "main.dir", "/workspace/JavaServer/runner" );
         try (BufferedInputStream in = new BufferedInputStream(
                 new URL("https://3000-a8f385c0-c266-452d-889a-10ab53a1ac51.ws-us02.gitpod.io/downloads/Guess.jar")
                         .openStream());
