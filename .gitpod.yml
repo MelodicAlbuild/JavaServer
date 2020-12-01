@@ -1,0 +1,3 @@
+tasks:
+  - init: |
+      apt-get install openjdk-X-jdk
